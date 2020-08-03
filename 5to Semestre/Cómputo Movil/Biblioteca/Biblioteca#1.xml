@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Biblioteca#1.xsl"?>
+
+<!DOCTYPE biblioteca[
+<!ELEMENT biblioteca (libro+, portada+)>
+<!ELEMENT libro (titulo,autor+,editorial+,year+, description, ISBN)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre+, apellido)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellido (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT portada (titulos+)>
+<!ELEMENT titulos (#PCDATA)>
+]>
+
+<biblioteca>
+ 
+    <libro>
+      <titulo> A todos los chicos que me enamore </titulo>
+      <autor>
+        <nombre> Jenny </nombre>
+        <apellido> Han </apellido>
+      </autor>
+      <editorial> Simon and Schuster </editorial>
+      <year> 2014 </year>
+      <description> Lara Jean guarda sus cartas de amor en una caja. No son cartas que le hayan enviado,
+      las ha escrito ella, una por cada chico de los que se ha enamorado. En ellas se muestra tal cual es, 
+      porque sabe que nadie las leerá. Hasta que un día alguien las envía por 
+      equivocación y la vida amorosa de Lara Jean pasa de ser la chica que nadie nota a estar totalmente fuera de control.</description>
+      <ISBN> 9783446254350 </ISBN>
+    </libro>
+  
+    <libro>
+      <titulo> Cuatro </titulo>
+      <autor>
+        <nombre> Veronica</nombre>
+        <apellido> Roth </apellido>
+      </autor>
+      <editorial> Oceano </editorial>
+      <year> 2014 </year>
+      <description> Tobias Eaton necesita escapar. Durante años, ha soportado las agresiones por parte de su padre, 
+      y la situación no ha hecho más que empeorar desde la repentina muerte de su madre. Es por ello que, 
+      cuando se le presenta la oportunidad de cambiar de facción y dejar atrás el infierno en el que ha vivido desde siempre, no duda y decide trasladarse a Osadía.</description>
+      <ISBN> 9780062345219 </ISBN>
+    </libro>
+
+  <libro>
+    <titulo> Después de ti </titulo>
+    <autor>
+      <nombre> Jojo </nombre>
+      <apellido> Moyes </apellido>
+    </autor>
+    <editorial> Suma </editorial>
+    <year> 2015 </year>
+    <description> Lou Clark tiene muchas preguntas:
+¿Por qué ha terminado trabajando en el pub irlandés de un aeropuerto donde cada día tiene que ver cómo otras personas se van de viaje a conocer sitios nuevos?
+¿Por qué a pesar de que ya lleva meses viviendo en su apartamento aún no se siente en casa?
+¿Le perdonará su familia lo que hizo hace año y medio?
+¿Y superará alguna vez la despedida del amor de su vida?
+Lo único que Lou sabe con certeza es que algo ha de cambiar.</description>
+    <ISBN> 9788492966806 </ISBN>
+  </libro>
+
+  <portada>
+    <titulos> Portadas de los libros </titulos>
+  </portada>
+  
+  <foto> libro1.jpg </foto>
+  <fotos> libro2.jpg </fotos>
+  <fot> libro4.jpg </fot>
+
+</biblioteca>
