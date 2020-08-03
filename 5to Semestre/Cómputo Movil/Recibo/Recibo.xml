@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Recibo.xsl"?>
+
+<Recibo>
+  
+  <cliente>
+    <nombre> GADAR DELGADO ALEXANDRA ZULEICA </nombre>
+    <direccion> CALZADA MORELOS 222 </direccion>
+    <calle> ENTRE 3ERA Y 2DA y MED A LADO X901L8 </calle>
+    <colonia> EX EJIDO CHAPULTEPEC C.P. 22785 </colonia>
+    <no.servicio> NO. SERVICIO: 3312</no.servicio>
+    <RMU> RMU: 22785 99-01-20 </RMU>
+    <cuenta> 8999 </cuenta>
+  </cliente>
+
+  <cuadro> 
+    <total> $ 296.00 </total>
+  <titulo> TOTAL A PAGAR: </titulo>
+    <descripcion> (DOSCIENTOS NOVENTA Y SEIS PESOS 00/100 M.N.)</descripcion>
+  </cuadro>
+
+  <medidor>
+    <no.medidor> No. MEDIDOR: 1CF321</no.medidor>
+    <lec.actual> 60482 </lec.actual>
+    <lec.anterior> 60232 </lec.anterior>
+    <tarifa> TARIFA: 01 </tarifa>
+    <multiplicador> MULTIPLICADOR: 1 </multiplicador>
+  </medidor>
+
+  <fecha>
+    <facturacion> PERIODO DE FACTURACION:</facturacion>
+    <fac> 25 JUL 2019 </fac> 
+    <limite> LÍMITE DE PAGO: 09 AGO 2019 </limite>
+    <corte> CORTE A PARTIR: 10 AGO 2019 </corte>
+  </fecha>
+
+  <CFE>
+    <siglas> CFE Suministrador de Servicios Básicos</siglas>
+    <direccion2> Rio Rodano No.14, Colonia Cuauhtémoc </direccion2> 
+    <codigo> RFC: CSS160330CP7</codigo> 
+    <clave-envio> 37DA08A258845440 </clave-envio>
+  </CFE>
+
+  <tabla1>
+    <energia> 220 </energia>
+    <iva> 18 </iva>
+    <Fac.Periodo> 238 </Fac.Periodo>
+    <DAP> 59 </DAP>
+    <adeudo> 300 </adeudo>
+    <pago-pasado> 300 </pago-pasado>
+    <total> 296 </total>
+  </tabla1>
+
+  <tabla2>
+    <suminstro> 136 </suminstro>
+    <distribución> 177 </distribución>
+    <transmicion> 42 </transmicion>
+    <CENACE> 2 </CENACE>
+    <enegia> 138 </enegia>
+    <capacidad> 138 </capacidad>
+    <MEM> 2</MEM>
+    <aportacion> 380 </aportacion>
+  </tabla2>
+
+    <!--- Facebook -->
+  <facebook>facebook.png </facebook>
+  
+    <Facebook>
+      <nada> </nada>
+      <face> CFENacional </face>
+    </Facebook>
+    
+  <!--- Twitter -->
+      <twitter> twitter.png </twitter>
+    <Twitter>
+      <tuiter> @CFEmx</tuiter>
+    </Twitter>  
+  
+  <!--- WEB -->
+        <web> web.png </web>
+      <WEB>
+        <compu>cfe.mx </compu>
+      </WEB>
+    
+  <!--- Anuncio -->
+    <anuncio> anuncio.jpg </anuncio>
+    
+  <!--- Barras -->
+    <barras> barras.png </barras>
+   
+  <!--- QR -->
+    <QR> CODE.png </QR>
+    
+  <!---Logo -->
+    <logo > CFE.jpg  </logo>
+
+  <punteado>
+<linea> ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</linea>
+  </punteado>
+
+
+</Recibo>
